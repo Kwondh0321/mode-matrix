@@ -1,2 +1,0 @@
-[console_scripts]
-mode-matrix = mode_matrix:main
