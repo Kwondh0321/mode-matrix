@@ -1,10 +1,12 @@
-# Contributing
+# 기여하기
 
-Small, focused improvements are welcome.
+[English](CONTRIBUTING.en.md)
 
-1. Open an issue describing the input, expected output, and edge case.
-2. Keep runtime code dependency-free unless there is a compelling reason.
-3. Add or update a unit test.
-4. Run python -m unittest discover -s tests -v.
+작고 명확한 개선을 환영합니다.
 
-Please keep pull requests scoped to this tool's single purpose.
+1. 입력, 기대 출력, 예외 상황을 설명하는 이슈를 열어 주세요.
+2. 꼭 필요한 이유가 없다면 실행 의존성을 추가하지 마세요.
+3. 단위 테스트를 추가하거나 갱신해 주세요.
+4. python -m unittest discover -s tests -v를 실행해 주세요.
+
+풀 리퀘스트는 이 도구의 단일 목적에 맞는 범위로 유지해 주세요.
