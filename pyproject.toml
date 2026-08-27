@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "mode-matrix"
 version = "0.1.0"
-description = "Summarize POSIX permission modes in a directory tree"
+description = "디렉터리 트리의 POSIX 권한 모드를 요약"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
@@ -25,3 +25,7 @@ mode-matrix = "mode_matrix:main"
 
 [tool.setuptools]
 py-modules = ["mode_matrix"]
+
+[project.urls]
+Source = "https://github.com/Kwondh0321/mode-matrix"
+Issues = "https://github.com/Kwondh0321/mode-matrix/issues"
