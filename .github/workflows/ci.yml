@@ -17,3 +17,5 @@ jobs:
           python-version: "3.11"
       - run: python -m unittest discover -s tests -v
       - run: python -m py_compile *.py
+      - run: python -m pip install .
+      - run: mode-matrix --help
