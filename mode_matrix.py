@@ -1,4 +1,4 @@
-"""Summarize POSIX permission modes in a directory tree."""
+"""디렉터리 트리의 POSIX 권한 모드를 요약. / Summarize POSIX permission modes in a directory tree."""
 
 import argparse
 import stat
