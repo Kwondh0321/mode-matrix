@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mode-matrix"
+version = "0.1.0"
+description = "Summarize POSIX permission modes in a directory tree"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Kwondh0321"}]
+keywords = ["cli", "python", "filesystem"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+
+[project.scripts]
+mode-matrix = "mode_matrix:main"
+
+[tool.setuptools]
+py-modules = ["mode_matrix"]
